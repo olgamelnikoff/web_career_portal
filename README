@@ -1,0 +1,39 @@
+This is a web portal written in PHP and HTML using CSS.
+
+It is connected to a MySQL server using SQL language.
+
+The Employer side:
+1. Employers have an admin login and a mechanism to verify credentials or forgot password.
+2. They are able to post jobs.
+3. They are able to maintain current jobs and categories.
+4. They are able to maintain status of applied jobs.
+5. They are able to see a summary of current application at a glance.
+6. Two Employer categories are provided:
+	o Prime: Employer can post up to five jobs. A monthly charge of $50 is applied.
+	o Gold: Employer can post as many jobs as he/she wants. A monthly charge of $100 is applied.
+7. The Employers have the ability to upgrade or downgrade their category. Charges are updated based on the new category.
+When they upgrade their category, it should update the user category status.
+8. The Employer dashboard has a contact us section to help user with contact information/helpline.
+
+The Employee side:
+1. Employees are able to sign up as users.
+2. Three user categories are provided:
+	o Basic: Employee can only view jobs but cannot apply. No charge.
+	o Prime: Employee can view jobs as well as apply for up to five jobs. A monthly charge of $10 is applied.
+	o Gold: Employee can view and apply to as many jobs as he/she wants. A monthly charge of $20 is applied.
+3. The Employees are able to choose categories.
+4. They have the ability to upgrade or downgrade their category. Charges are updated based on the new category.
+5. When the Employees upgrade their category, the user category status is updated.
+6. They have a user login and a mechanism to verify credentials or forgot password.
+7. They are able to search for jobs.
+8. They are able to search by job category.
+9. They are able to apply for jobs.
+10. They are able to maintain status of applied jobs.
+11. They are able to delete their user profile.
+12. THey are able to update user profile details.
+13. They are able to withdraw from an applied job.
+
+The Administratior side:
+1. An administrator has an admin login and a mechanism to verify credentials or forgot password.
+2. They are able to activate or deactivate a user.
+3. They are able to see all activities in the system.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css"
+href = "myStyle.css" />
+<script>
+function closeWin() {
+close();
+}
+</script>
+<title>LOGIN</title>
+</head>
+<body>
+
+<h1> LOGIN</h1>
+<form action="login.php" method="post">
+<fieldset class="fieldset1">
+<legend class="legend1" > Profile </legend>
+<p></p>
+<label for="id_uname">User Name:</label>
+<input type="text" class="tww" id="id_uname" name = "id_uname" placeholder="User Name">
+<p></p>
+<label for="id =pwd">Password : </label>
+<input type = "password" class="tww" id = "pwd" name = "pwd" placeholder="Enter your Password"/>
+<p>
+<div class="bo" >
+<!-- <input type = "checkbox" class="bo" id = "forget" name = "forget"value = 1 /> Forget Password -->
+</div>
+</p>
+</fieldset>
+<p></p>
+<p></p>
+<p></p>
+<div class="submit">
+<input type="submit" name="login" />
+</div>
+</form>
+
+<form action="forgottenpassword.php" method="post">
+    <input type = "submit" name="forgottenpassword" value="forgot my password" />
+</form>
+
+<!-- <button onclick="closeWin()">Cancel</button> -->
+
+
+</body>
+</html>

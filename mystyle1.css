@@ -1,0 +1,112 @@
+html {
+background-color: #333;
+}
+body {
+font-size:12px;
+background-color: #f5f5f0;
+font-family: Helvetica, Arial, sans-serif;
+color : #333;
+}
+label{
+font-weight:bold;
+}
+h1 {
+color:red;
+}
+/* General Form */
+.heading{
+font-size:20px;
+}
+.gender{
+position:relative;
+top:-42px;
+left:185px;
+}
+.selectOption{
+padding: 5px;
+width:239px;
+position:relative;
+left:20px;}
+
+.textboxAddress{
+width:474px;
+}
+.textboxAddressDetail{
+width:232px;
+}
+legend{
+font-weight:bold;
+font-size:16px;
+}
+.submit{
+text-align:center;
+}
+.te{
+width:378px;
+padding: 5px;}
+.tw{
+width:400px;
+padding: 5px;
+position:relative;
+left:13px;}
+.tn{
+width:173px;
+padding: 5px;
+}
+.tc{
+width:345px;
+padding: 5px;
+position:relative;
+left:13px;}
+ .tww{
+width:389px;
+padding: 5px;
+position:relative;
+left:13px;}
+ .tg{
+width:392px;
+padding: 5px;
+position:relative;
+left:20px;}
+.legend1{
+font-weight:bold;
+font-size:16px;
+}
+.fieldset1{
+margin: 5px;
+}
+.selectOption1{
+padding: 5px;
+width:65px;
+position:relative;
+left:20px;}
+ .tww1{
+width:300px;
+padding: 5px;
+position:relative;
+left:12px;}
+ .tww11{
+width:300px;
+padding: 5px;
+position:relative;
+left:62px;}
+ .tww12{
+
+
+position:relative;
+left:13px;}
+
+.bo{
+font-size:16px;
+font-weight:bold;
+padding: 5px;
+}
+/*#outer p { padding: 0em; }*/
+#one { position: fixed; top: 0px; right: 0px; }
+#two { position: fixed; top: 0px; left: 0px; }
+#three { position: fixed; bottom: 0em; right: 4em; }
+#outer { position: relative; }
+
+
+
+
